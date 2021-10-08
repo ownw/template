@@ -2,10 +2,11 @@
   "name": "front",
   "version": "1.0.0",
   "private": true,
+  "main": "dist/index.js",
   "scripts": {
     "build": "echo 0",
     "start": "parcel src/index.html",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "jest": "^27.2.4",

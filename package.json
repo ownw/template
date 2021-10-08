@@ -1,12 +1,13 @@
 {
   "name": "@ownw/template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal template for Node.js projects",
   "private": true,
   "main": "index.js",
   "scripts": {
     "back": "yarn workspace back",
     "front": "yarn workspace front",
+    "clean": "rimraf node_modules **/dist **/node_modules **/coverage",
     "build": "yarn back build && yarn front build",
     "start": "yarn back start && yarn front start",
     "test": "yarn back test && yarn front test"

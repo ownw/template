@@ -2,10 +2,10 @@
   "name": "back",
   "version": "1.0.0",
   "private": true,
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc --build",
-    "start": "yarn build && nodemon --inspect dist/index.js",
-    "clean": "rm -rf ./dist",
+    "start": "yarn build && nodemon --inspect",
     "test": "jest --coverage"
   },
   "dependencies": {
