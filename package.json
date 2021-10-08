@@ -1,0 +1,21 @@
+{
+  "name": "@ownw/template",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "back": "yarn workspace back",
+    "front": "yarn workspace front",
+    "test": "yarn back test && yarn front test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "back",
+    "front"
+  ],
+  "devDependencies": {
+  }
+}
