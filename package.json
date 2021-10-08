@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "@ownw",
-  "license": "ISC",
+  "license": "MIT",
   "workspaces": [
     "back",
     "front"
